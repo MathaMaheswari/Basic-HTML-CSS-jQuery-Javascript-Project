@@ -1,0 +1,48 @@
+main{
+	background-color: #fff;
+}
+#products-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 8em;
+  margin-right: 5em;
+  margin-top:5em;
+  margin-bottom: 5em;
+}
+
+#products-table td, #products-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+
+#products-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#products-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.table-wrapper{
+		border: none;
+		margin-left: 0;
+	}
+	#products-table{
+		margin: 0;
+	}
+	hr{
+		display: none;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	#products-table{
+		text-align: center;
+		margin-left: 8em;
+		margin-right: 5em;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+	}
+}

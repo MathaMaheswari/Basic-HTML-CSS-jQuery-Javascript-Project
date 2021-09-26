@@ -1,0 +1,82 @@
+main{
+	background-color:#fff;
+}
+.welcome-wrapper{
+	background-image:url("../images/about-hero-image.jpg");
+	background-repeat: no-repeat;
+    margin-top: -1em;
+    background-size: 1350px;
+    height: 200px;
+	margin-bottom: 4em;
+}
+.welcome-text{
+	text-align:center;
+	color:#fff;
+	background-color:rgba(0, 0, 0, 0.4);
+	padding:1px;
+	width: 69%;
+    margin-left: 10em;
+    
+}
+
+.welcome-text h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.welcome-text p{
+	font-size: 20px;
+    font-weight: bold;
+}
+.about-luminous{
+	margin: 1em;
+    box-shadow: 0 0 0.3em black;
+    border-radius: 20px;
+    padding: 8px;
+}
+.about-luminous h1{
+	color: #00285f;
+	text-transform: uppercase;
+	background: url(../images/plus.png) no-repeat left center;
+}
+.about-luminous h1.minus{
+	background: url(../images/minus.png) no-repeat left center;
+}
+.about-luminous h1 a{
+	padding-left: 20px;
+}
+.about-luminous p{
+	font-size:17px;
+}
+.about-wrapper{
+	box-shadow: 0 0 0.3em black;
+    padding: 1px;
+    border-radius: 25px;
+    margin: 2em;
+	background-color:#f1eeed;
+}
+.video{
+	text-align: center;
+    background-color: black;
+}
+.video video{
+	border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+.video h1{
+	color: white;
+    padding-top: 20px;
+}
+@media only screen and (max-width:768px){
+	.welcome-wrapper{
+	height:auto
+	}
+	.welcome-text{
+		padding:0px;
+		width:auto;
+	    margin-left:auto;
+	}
+	.video video{
+	width: 316px;
+	}
+}

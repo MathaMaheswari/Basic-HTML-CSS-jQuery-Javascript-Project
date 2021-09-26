@@ -1,0 +1,307 @@
+{
+  "products":[
+  {
+         "productName": "Rechargeable Lamps",
+         "Stock": "10",
+         "Quantity": "26",
+         "Size": "40cms",
+         "Color": "Blue"
+        },
+        {
+         "productName": "Study Lamps",
+         "Stock": "4",
+         "Quantity": "6",
+         "Size": "42cms",
+         "Color": "Pink"
+         
+        },
+        {
+         "productName": "Luminous Special Lamps",
+         "Stock": "14",
+         "Quantity": "32",
+         "Size": "39cms",
+         "Color": "White"
+         
+        },
+        {
+         "productName": "Touch Sensored Lamps",
+         "Stock": "3",
+         "Quantity": "7",
+         "Size": "50cms",
+         "Color": "Navy Blue"
+         
+        },
+        {
+         "productName": "Modern Desk Lamps",
+         "Stock": "10",
+         "Quantity": "20",
+         "Size": "45cms",
+         "Color": "Green"
+         
+        },
+        {
+         "productName": "Table Lamps",
+         "Stock": "20",
+         "Quantity": "34",
+         "Size": "41cms",
+         "Color": "Black"
+         
+        },
+        {
+         "productName": "Desk Lamps",
+         "Stock": "2",
+         "Quantity": "30",
+         "Size": "32cms",
+         "Color": "White"
+         
+        },
+        {
+         "productName": "Movable Lamps",
+         "Stock": "31",
+         "Quantity": "40",
+         "Size": "24cms",
+         "Color": "Golden"
+         
+        },
+        {
+         "productName": "Wired Lamps",
+         "Stock": "22",
+         "Quantity": "46",
+         "Size": "34cms",
+         "Color": "Violet"
+         
+        },
+        {
+         "productName": "Chargeable Lamps",
+         "Stock": "11",
+         "Quantity": "40",
+         "Size": "37cms",
+         "Color": "Mustard"
+         
+        },
+        {
+         "productName": "Battery Lamps",
+         "Stock": "9",
+         "Quantity": "45",
+         "Size": "39cms",
+         "Color": "Burgandy"
+         
+        },
+        {
+         "productName": "Wireless  Lamps",
+         "Stock": "15",
+         "Quantity": "19",
+         "Size": "33cms",
+         "Color": "Brown"
+         
+        },
+        {
+         "productName": "Eco-Friendly Lamps",
+         "Stock": "19",
+         "Quantity": "78",
+         "Size": "43cms",
+         "Color": "Orange"
+         
+        },
+        {
+         "productName": "Trunkin Movable Desk Lamps",
+         "Stock": "23",
+         "Quantity": "56",
+         "Size": "39cms",
+         "Color": "Yellow"
+         
+        },
+        {
+         "productName": "Buffet Lamps",
+         "Stock": "30",
+         "Quantity": "54",
+         "Size": "44cms",
+         "Color": "Cream"
+         
+        },
+        {
+         "productName": "Piano Lamps",
+         "Stock": "55",
+         "Quantity": "70",
+         "Size": "39cms",
+         "Color": "Silver"
+         
+        },
+        {
+         "productName": "Swing Arm Lamps",
+         "Stock": "29",
+         "Quantity": "90",
+         "Size": "56cms",
+         "Color": "Red"
+         
+        },
+        {
+         "productName": "Gooseneck Lamps",
+         "Stock": "31",
+         "Quantity": "67",
+         "Size": "39cms",
+         "Color": "Lime"
+         
+        },
+        {
+         "productName": "Tripod Lamps",
+         "Stock": "1",
+         "Quantity": "5",
+         "Size": "37cms",
+         "Color": "Black"
+         
+        },
+        {
+         "productName": "Torchire Floor Lamps",
+         "Stock": "8",
+         "Quantity": "13",
+         "Size": "38cms",
+         "Color": "Blue"
+         
+        },
+        {
+         "productName": "Boom Arm Lamps",
+         "Stock": "12",
+         "Quantity": "48",
+         "Size": "29cms",
+         "Color": "Green"
+         
+        },
+        {
+         "productName": "LED Lamps",
+         "Stock": "17",
+         "Quantity": "34",
+         "Size": "39cms",
+         "Color": "Brown"
+         
+        },
+        {
+         "productName": "Vintage style Lamps",
+         "Stock": "19",
+         "Quantity": "38",
+         "Size": "31cms",
+         "Color": "White"
+         
+        },
+        {
+         "productName": "Flicker-free Lamps",
+         "Stock": "20",
+         "Quantity": "25",
+         "Size": "40cms",
+         "Color": "Grey"
+         
+        },
+        {
+         "productName": "Tree Lamps",
+         "Stock": "23",
+         "Quantity": "30",
+         "Size": "45cms",
+         "Color": "Green"
+         
+        },
+         {
+         "productName": "Floor Lamps",
+         "Stock": "17",
+         "Quantity": "56",
+         "Size": "39cms",
+         "Color": "White"
+         
+        },
+        {
+         "productName": "Smart Lamps",
+         "Stock": "19",
+         "Quantity": "50",
+         "Size": "55cms",
+         "Color": "Violet"
+         
+        },
+        {
+         "productName": "Moore Lamps",
+         "Stock": "31",
+         "Quantity": "56",
+         "Size": "35cms",
+         "Color": "Orange"
+         
+        },
+        {
+         "productName": "Globe Electric Lamps",
+         "Stock": "11",
+         "Quantity": "24",
+         "Size": "31cms",
+         "Color": "Sky Blue"
+         
+        },
+        {
+         "productName": "Lite Source Lamps",
+         "Stock": "33",
+         "Quantity": "60",
+         "Size": "43cms",
+         "Color": "Burgandy"
+         
+        },
+        {
+         "productName": "Glass Lamps",
+         "Stock": "22",
+         "Quantity": "40",
+         "Size": "42cms",
+         "Color": "Golden"
+         
+        },
+        {
+         "productName": "Fluoroscent Lamps",
+         "Stock": "41",
+         "Quantity": "50",
+         "Size": "41cms",
+         "Color": "Red"
+         
+        },
+        {
+         "productName": "Compact Fluorescent Lamps",
+         "Stock": "12",
+         "Quantity": "39",
+         "Size": "40cms",
+         "Color": "Blue"
+         
+        },
+        {
+         "productName": "Mercury Vapour Lamps",
+         "Stock": "19",
+         "Quantity": "24",
+         "Size": "42cms",
+         "Color": "Yellow"
+         
+        },
+        {
+         "productName": "Metal Halide Lamps",
+         "Stock": "31",
+         "Quantity": "40",
+         "Size": "43cms",
+         "Color": "Purple"
+         
+        },
+        {
+         "productName": "Incandescent Lamps",
+         "Stock": "28",
+         "Quantity": "46",
+         "Size": "33cms",
+         "Color": "Pink"
+         
+        },
+        {
+         "productName": "Low Pressure Sodium Vapour Lamps",
+         "Stock": "19",
+         "Quantity": "36",
+         "Size": "29cms",
+         "Color": "Indigo"
+         
+        },
+        {
+         "productName": "High Pressure Sodium Vapour Lamps",
+         "Stock": "40",
+         "Quantity": "56",
+         "Size": "41cms",
+         "Color": "Golden"
+         
+        }
+  ]
+}

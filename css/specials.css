@@ -1,0 +1,93 @@
+/* Styles for Luminous Desk Lamps Website-Specials Page*/
+main{
+	color: black;
+	background-color: white;
+}
+.weekly-sale-items{
+	margin-top: 3em;
+}
+.column {
+  float: left;
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 75px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+  background-color: #80808029;
+  color: black;
+  width: 22.3%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column img {
+    width: 300px;
+    height: 270px;
+}
+.column .price{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.specials-heading{
+	padding-left: 3.5em;
+	color: #000;
+	padding-top: 1em;
+}
+.specials-heading p{
+	font-size: 17px;
+	font-weight:700;
+}
+.price{
+	text-align: center;
+	display: block;
+}
+.discounted-price{
+	font-size: 24px;
+}
+.left-product-image img{
+	float:left;
+	border-radius:45px;
+}
+.product-details{
+	margin-left:28em;
+}
+.product-inside{
+	margin-bottom:8em;
+}
+.bx-wrapper{
+	max-width: 750px!important;
+	margin: 0 auto;
+	border: 5px solid #00285f !important;
+    border-radius: 20px;
+} 
+.bx-viewport{
+	height: 350px !important;
+}
+.bxslider img {
+    width: 750px;
+}
+@media only screen and (max-width: 768px) {
+	.column{
+		width: 300px;
+		margin-left: 31px;
+	}
+	.specials-heading {
+		padding-left:11px;
+	}
+	.left-product-image img {
+		float:none;
+		width: 350px;
+	}
+	.product-details {
+		margin-left:auto;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	.weekly-sale-items,.week-product{
+		margin-left: 10em;
+	}
+}

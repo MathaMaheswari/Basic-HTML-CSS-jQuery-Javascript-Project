@@ -1,0 +1,112 @@
+/* Styles for Contact Us page*/
+
+.center-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-us-wrapper{
+	color: #fff;
+	padding: 20px;
+}
+.contact-us-wrapper h1{
+	color: #fff;
+	text-align: center;
+	font-size: 48px;
+	padding-top: 10px;
+}
+
+.contact-us-wrapper p{
+	color: #fff;
+	font-size: 20px;
+	text-align:center;
+}
+label,legend{
+	color:#fff;
+	font-size:20px;
+}
+.contact-us-wrapper{
+	position: relative;
+    z-index: 1;
+}
+.contact-us-wrapper .contact-us-banner{
+	background-image: url("../images/contact-us.jpg");
+	background-repeat: no-repeat;
+	background-size: 1680px;
+	position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	opacity: 0.3;
+}
+fieldset{
+	width: 45%;
+	margin-top: 5em;
+}
+.form-row input{
+	width:450px;
+	height:30px;
+	outline: 2px solid #00285f;
+}
+textarea{
+	width: 450px;
+    height: 90px;
+}
+form{
+	margin-left:5em;
+}
+legend{
+	text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+	padding: 20px;
+}
+.contact-us-wrapper .btn{
+	width: 175px;
+	margin: 27px;
+    border-radius: 1em;
+    line-height: 0em;
+	background-color: #00285f;
+    border: none;
+    color: white;
+	padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+    cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 700;
+	outline: none;
+}
+
+.no-outline{
+	outline: none;
+}
+.form-select select{
+	width: 120px;
+    height: 27px;
+    font-size: 14px;
+	font-weight: 700;
+}
+::placeholder {
+  color: grey;
+  font-size: 14px;
+  padding-left: 10px;
+}
+div.error {
+    color: red;
+}
+.form_success{
+	display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 800px;
+    border-radius: 20px;
+	margin-bottom: 10em;
+    margin-top: 10em;
+	font-size: 20px;
+}

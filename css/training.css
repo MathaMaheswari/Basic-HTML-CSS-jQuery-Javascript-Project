@@ -1,0 +1,70 @@
+main{
+	background-color: #fff;
+}
+#training {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 8em;
+  margin-right: 5em;
+  margin-top:5em;
+  margin-bottom: 5em;
+}
+
+#training td, #training th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+
+#training tr:nth-child(even){background-color: #f2f2f2;}
+
+#training th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #00285f;
+  color: white;
+}
+#training caption{
+	box-shadow: 0 0 0.8em black;
+    margin-bottom: 1em;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 9px;
+    background-color: #00285f;
+}
+.table-wrapper{
+	margin-left: 5em;
+    border: 2px solid #00285f;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    margin-right: 5em;
+}
+#training tbody > tr:hover{
+  background: #00285f;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+	.table-wrapper{
+		border: none;
+		margin-left: 0;
+	}
+	#training{
+		margin: 0;
+	}
+	hr{
+		display: none;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	#training{
+		text-align: center;
+		margin-left: 8em;
+		margin-right: 5em;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+	}
+}

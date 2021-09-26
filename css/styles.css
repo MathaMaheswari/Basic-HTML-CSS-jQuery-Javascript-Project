@@ -1,0 +1,168 @@
+body {
+	font-family: calibri, helvetica, sans-serif;
+	background-color: white;
+	margin: 0;
+}
+#container {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+main{
+	background-color: black;
+}
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+nav li{
+	background-color:#2f5024;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+.home-text p{
+	font-size:18px;
+}
+.home-text{
+	padding:20px;
+	background-image: url('../images/lamp6.jpg');
+	padding-bottom: 230px;
+	background-repeat: no-repeat;
+	color: white;
+	background-size: 1370px;
+}
+footer{
+	padding:10px;
+	color: white;
+	background-color: #00285f;
+}
+
+footer p{
+	text-align: center;
+	line-height:0.5em;
+	font-size:20px;
+}
+footer p a{
+	color: white;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 1.0em; 
+    font-weight:bold;	
+	font-family: calibri, helvetica, sans-serif;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	font-size:14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #00285f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown{
+	float: none;
+}
+.dropdown-content{
+	margin-left: 6em;
+    margin-top: 0.1em;
+}
+@media only screen and (min-width: 769px) {
+	#container {
+		background-color: white;
+	}
+	nav {
+		font-size: 1.15em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 2.5em;
+		float: right;
+	}
+	nav ul {
+		margin: 0;
+	}
+	nav li {
+		display: inline;
+		float: left;
+		white-space: nowrap;
+		list-style-type: none;
+		margin-right: 0.4em;
+		padding: 0.3em;
+		background-color: #00285f;
+	}
+	nav li a {
+		display: inline-block;
+		padding: 0.7em;
+		text-decoration: none;
+		text-transform: uppercase;
+		color:white;
+	}
+	nav li a:hover,.dropdown .dropbtn:hover{
+		background-color: white;
+		color: black;
+		border-radius: 1em;
+		cursor: pointer;
+	}
+	.dropdown-content a:hover{
+		color: white;
+	}
+	.dropdown-content{
+		margin-left: -2em;
+		border: 2px solid black;
+	}
+}
+@media only screen and (max-width: 768px) {
+	header{
+		text-align: center;
+	}
+	.home-text{
+		background-size: auto;
+	}
+	.dropdown .dropbtn {
+		padding:0px;
+		font-weight: normal;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	nav li{
+		margin-right: 0;
+		padding: 0;
+	}
+}
